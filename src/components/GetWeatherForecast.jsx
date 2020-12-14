@@ -1,25 +1,28 @@
 import React, { Component } from "react";
+require('dotenv').config()
+
+//const REACT_WEATHER_API_KEY = process.env.REACT_APP_WEATHER_API_KEY
 
 class GetWeatherForecast extends Component{
-//   constructor(){
-//       super();
-//   }
-
+  // constructor(){
+  //     super();
+  //   }
+   
   getForecast(){
 
-    // fetch("https://community-open-weather-map.p.rapidapi.com/weather?q=London", {
+  //   fetch("https://community-open-weather-map.p.rapidapi.com/weather?q=London", {
 	// "method": "GET",
 	// "headers": {
-	// 	"x-rapidapi-key": "e78d17f35bmsh9c0711d85918038p1fd0d0jsna20d9c398e21",
+	// 	"x-rapidapi-key": REACT_WEATHER_API_KEY,
 	// 	"x-rapidapi-host": "community-open-weather-map.p.rapidapi.com"
 	//     }
-    // })
-    // .then(response => {
+  //   })
+  //   .then(response => {
 	// console.log(response);
-    // })
-    // .catch(err => {
+  //   })
+  //   .catch(err => {
 	// console.error(err);
-    // });
+  //   });
   }
 
 //   return (
